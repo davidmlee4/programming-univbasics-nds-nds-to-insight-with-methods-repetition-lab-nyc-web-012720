@@ -44,7 +44,7 @@ i = 0
 grand_total = 0
 while i < list.length do
   name = list[i]
-  grand_total = += directors_earnings_hash[name]
+  grand_total += directors_earnings_hash[name]
   i += 1
 end
 grand_total
