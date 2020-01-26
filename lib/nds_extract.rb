@@ -40,12 +40,13 @@ def total_gross(source)
   # Write this implementation
 directors_earnings_hash = directors_totals(source)
 list = list_of_directors(source)
-pp source
 i = 0
-total = 0
+grand_total = 0
 while i < list.length do
-  name = list[i] = 
+  name = list[i]
+  grand_total = += directors_earnings_hash[name]
 end
+
   # Should use methods:
   # 1. directors_totals: returns a Hash of { dir_name => gross }
   # 2. list_of_directors: names provides an Array of directors names (use
