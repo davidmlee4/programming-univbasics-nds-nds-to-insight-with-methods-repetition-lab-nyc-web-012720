@@ -43,7 +43,9 @@ list = list_of_directors(source)
 pp source
 i = 0
 total = 0
-
+while i < list.length do
+  name = list[i] = 
+end
   # Should use methods:
   # 1. directors_totals: returns a Hash of { dir_name => gross }
   # 2. list_of_directors: names provides an Array of directors names (use
