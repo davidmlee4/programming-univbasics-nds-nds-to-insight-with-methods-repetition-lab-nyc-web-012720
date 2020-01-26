@@ -39,7 +39,7 @@ def total_gross(source)
 
   # Write this implementation
 directors_earnings_hash = directors_totals(source)
-
+list = list_of_directors(source)
 pp source
 i = 0
   # Should use methods:
