@@ -26,7 +26,13 @@ end
 def list_of_directors(source) #[{:name=>"Larry"}, {:name=>"Curly"}, {:name=>"Moe"}, {:name=>"Iggy"}]
   # Write this implementation
   pp source
-
+  list = []
+  i = 0
+  while i < source.length do
+    list << source[i][:name]
+    i += 1
+  end
+list
 end
 
 def total_gross(source)
